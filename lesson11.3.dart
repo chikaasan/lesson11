@@ -1,12 +1,10 @@
 main() 
   {
-  print(sortByLength(["Google", "Apple", "Microsoft"]));
+  print(sortByLength(["Leonardo", "Michelangelo", "Raphael", "Donatello"]));
   }
 
 List sortByLength(List array)
   {
-    
-    array.sort();
-
+    array.sort((a, b) => a.length.compareTo(b.length));
     return array;
   }  

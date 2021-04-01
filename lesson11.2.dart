@@ -8,5 +8,6 @@ array.forEach((element) {
     second.add(element);
   }
 });
+
 return second;
 }
